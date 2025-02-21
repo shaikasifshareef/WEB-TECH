@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 60%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.section {
+    margin-bottom: 20px;
+}
+h1, h2 {
+    color: #002f6c;
+}
+h1 {
+    font-size: 24px;
+}
+h2 {
+    font-size: 20px;
+    border-bottom: 2px solid #002f6c;
+    padding-bottom: 5px;
+}
+.details p {
+    margin: 5px 0;
+}
+.skills {
+    display: flex;
+    justify-content: space-between;
+}
+.skills ul {
+    
+    padding: 0;
+}
+.skills ul li {
+    margin: 5px 0;
+}
+.profile-container {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #002f6c, #004aad);
+    color: white;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.profile-image img {
+    width: 120px;
+    height: 120px;
+    
+    margin-right: 20px;
+}
+.profile-info {
+    flex: 1;
+}
+.profile-info h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.profile-info p {
+    margin: 5px 0;
+}
+.profile-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 14px;
+}
+ /* Container for the profile section */
+ .profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Styling for the carousel */
+.carousel-container {
+    position: relative;
+    width: 300px; /* Adjust this to your preferred width */
+    height: 300px; /* Adjust this to your preferred height */
+    overflow: hidden;
+}
+
+.carousel-images {
+    display: flex;
+    width: 900px; /* 3 images * 300px each */
+    transition: transform 1s ease-in-out; /* Smooth transition for sliding */
+}
+
+.carousel-images img {
+    width: 300px; /* Same as container width */
+    height: 300px; /* Same as container height */
+    object-fit: cover; /* Ensures image covers the div without distortion */
+}
+
+/* Keyframe animation for time lapse (automatic sliding) */
+@keyframes slide {
+    0% {
+        transform: translateX(0); /* Show the first image */
+    }
+    33.33% {
+        transform: translateX(-300px); /* Show the second image */
+    }
+    66.66% {
+        transform: translateX(-600px);
+    }
+    100% {
+        transform: translateX(0); 
+    }
+}
+
+.profile-info {
+    margin-left: 20px;
+    color: #f4f4f4;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.arrow-left {
+    left: 10px;
+}
+
+.arrow-right {
+    right: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+h2, h3 {
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+.section {
+    margin-bottom: 20px;
+}
+ul {
+ 
+    padding: 0;
+}
+li {
+    margin-bottom: 5px;
+}
